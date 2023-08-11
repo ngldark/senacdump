@@ -1,0 +1,13 @@
+let
+    Fonte = let
+    Fonte = ""
+in
+    let
+    dataInicial = #date(2022, 01, 01),
+    dataFinal = #date(2024, 01, 01) ,
+    numeroDias = Duration.Days(dataFinal - dataInicial),
+    listaDatas = List.Dates(dataInicial, numeroDias, #duration(1, 0, 0, 0))
+in 
+    listaDatas
+in
+    Fonte
